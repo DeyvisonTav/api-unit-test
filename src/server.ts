@@ -1,10 +1,11 @@
-import { app } from "./app";
+import { app } from './app'
+
 
 app
   .listen({
-
+  
     port: 3333,
   })
   .then(() => {
-    console.log("http server running");
-  });
+    console.log('🚀 HTTP Server Running!')
+  })
